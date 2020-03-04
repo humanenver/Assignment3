@@ -11,7 +11,7 @@ public class SkateboardTest {
     public void testNumOfWheels()
     {
 
-             assertSame(4,skateboard.getWheels());
+             assertEquals(4,skateboard.getWheels());
 
 
     }
@@ -21,7 +21,7 @@ public class SkateboardTest {
     public void testAbecSpeed()
     {
 
-        assertSame(3,skateboard.getAbecSpeed());
+        assertEquals(3,skateboard.getAbecSpeed());
 
 
     }
@@ -31,7 +31,7 @@ public class SkateboardTest {
     public void testDeckStrength()
     {
 
-        assertSame(2,skateboard.deckStrength);
+        assertEquals(2,skateboard.deckStrength);
 
     }
 
